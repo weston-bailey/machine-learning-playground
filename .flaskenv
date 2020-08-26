@@ -1,4 +1,0 @@
-FLASK_APP=api
-FLASK_ENV=development
-FLASK_RUN_PORT=3001
-FLASK_RUN_EXTRA_FILES=.env:.flaskenv
