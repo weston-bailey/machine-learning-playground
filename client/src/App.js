@@ -1,31 +1,28 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+
 import { Container, Row, Col } from 'react-bootstrap';
 
+import NavHeader from './components/wrappers/navheader/Navheader.jsx';
+import Canvas from './components/Canvas'
 
 function App() {
   return (
+    <> 
+    <NavHeader />
     <Container fluid>
-      <Row>
-        <Col xl={1}>
-          gutter left
+      <Row noGutters='true'>
+        {/* <Col xl={1} />
+
+        <Col xl={10}> Col 10
         </Col>
 
-        <Col> Col 1
-        </Col>
+        <Col xl={1} /> */}
+      <Canvas />
 
-        <Col xl={1}>
-          gutter middle
-        </Col>
-
-        <Col> Col 2
-        </Col>
-
-        <Col xl={1}>
-          gutter right
-        </Col>
       </Row>
     </Container>
+    </>
   );
 }
 
