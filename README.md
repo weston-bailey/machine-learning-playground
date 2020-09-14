@@ -1,22 +1,14 @@
-# Machine learning playground 🤖 full stack app 
+# 🤖 Machine learning playground  
+
+[this is a continuation of my GA p4 project found here](https://github.com/weston-bailey/P4-tensorflow-playground)
  
  ## Pyhton Flask server and Jinja template rendering
 
 [Visit the Live Heroku Deployment!](https://machine-learning-playground.herokuapp.com/)
 
-## Project Pitch
+## Original Project Pitch
 
-### Overview
-
-Team Members: Weston Bailey
-
-Name of App:  Undecided
-
-New Tech: Tensorflow v2 & Tensorflow.js
-
-### Answer: 
-
-#### 1. How do you plan on learning/implementing this new technology?
+### 1. How do you plan on learning/implementing this new technology?
 
 the docs:
 
@@ -42,7 +34,34 @@ Examples repos:
 
 [tensorflow at github](https://github.com/tensorflow)
 
-#### 2. & 3. What is your goal with this project?/Who is the user for your app?/What is the User Flow?
+Additional resources used:
+
+[AI wiki](https://docs.paperspace.com/machine-learning/wiki/accuracy-and-loss)
+
+[google ML crash course](https://developers.google.com/machine-learning/crash-course)
+
+[google mnist classifacation](https://codelabs.developers.google.com/codelabs/tfjs-training-classfication/index.html#0)
+
+[4 part tfjs tuts at medium](https://medium.com/ailab-telu/learn-and-play-with-tensorflow-js-introduction-d4d19e9982ea)
+
+[drawable canvas mnsit with tfjs](https://towardsdatascience.com/deploying-a-simple-machine-learning-model-into-a-webapp-using-tensorflow-js-3609c297fb04)
+
+[intro to tfjs](https://blog.tensorflow.org/2018/04/a-gentle-introduction-to-tensorflowjs.html)
+
+[tfjs cheatsheet](https://towardsdatascience.com/50-tensorflow-js-api-explained-in-5-minutes-tensorflow-js-cheetsheet-4f8c7f9cc8b2)
+
+[fashion mnist with drawable canvas](https://github.com/novasush/visualizing-fashion-mnist-on-browser)
+
+[image kernals](https://setosa.io/ev/image-kernels/)
+
+[maxpooling in CNNs](https://www.quora.com/What-is-max-pooling-in-convolutional-neural-networks)
+
+[cnn convNets](https://cs231n.github.io/convolutional-networks/)
+
+[learning rate](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
+
+
+### 2. & 3. What is your goal with this project?/Who is the user for your app?/What is the User Flow?
 
 Personal goal: To gain a foundational knowledge of machine learning and the use of tensorflow.
 
@@ -73,7 +92,7 @@ Stretch goals would include:
 
 * include alternative types on machine learning such as an unsupervised learning model
 
-#### 4. Any potential roadblocks you think you might run into?
+### 4. Any potential roadblocks you think you might run into?
 
 1. I need to decide on a suitable dataset for training:
 
@@ -95,8 +114,8 @@ Stretch goals would include:
 
 ### Daily plan:
 
-![daily plan](./img/daily-plan.png)
+![daily plan](./readme_img/daily-plan.png)
 
 ### 3 Wireframe:
 
-![wireframw](./img/wireframe.png)
+![wireframw](./readme_img/wireframe.png)
