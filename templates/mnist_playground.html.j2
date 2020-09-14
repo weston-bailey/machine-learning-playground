@@ -1,0 +1,50 @@
+{% extends "layout.html.j2" %}
+{% block content %}
+  <div class="row">
+    {# gutter col #}
+    <div class="col-1"></div>
+    {# left col #}
+    <div class="col">
+      <hr />
+        {% include "mnist_select_dataset.html.j2" %}
+      <hr />
+        {% include "mnist_design_model.html.j2" %}
+      <hr />
+        {% include "mnist_train_model.html.j2" %}
+      <hr />
+        {% include "mnist_test_model.html.j2" %}
+      <hr />
+        {% include "mnist_model_predictions.html.j2" %}
+      <hr />
+    </div>
+
+    {# gutter col #}
+    <div class="col-1"></div>
+    {# right column #}
+    <div class="col">
+      <hr />
+        {% include "mnist_example_images.html.j2" %}
+      <hr />  
+        {% include "mnist_model_details.html.j2" %}
+      <hr />  
+        {% include "mnist_training_details.html.j2" %}
+      <hr />
+        {% include "mnist_model_evaluation.html.j2" %}
+      <hr />  
+
+      {# <div class="row">
+        <h5>Model Predictions:</h5>
+      </div>
+      <div class="row">
+        <div class="caption" id="model-prediction"></div>
+      </div>
+      <div class="row" id="model-uncertainty"></div>
+      <div class="row" id="model-find-similar"></div>
+      <hr /> #}
+
+    </div>
+    {# gutter col #}
+    <div class="col-1"></div>
+  </div>
+  {% include "mnist_modal.html.j2" %}
+{% endblock %}

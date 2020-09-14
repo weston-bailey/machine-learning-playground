@@ -1,0 +1,26 @@
+{# select dataset type #}
+<div class="row">
+  <div class="col-10">
+    <h5>Choose a dataset to train with:</h5>
+  </div>
+  <div class="col-2 form-inline">
+    <a href="#dataset-modal" data-toggle="modal" class="btn btn-sm btn-outline-info"><span class="fa fa-question"></span></a>
+  </div>
+</div>
+
+<div class="form-inline row p-1">
+  <div class="col-4">
+    <label for="data-select" class=" ">Select Dataset</label>
+  </div>
+
+  <div class="col-8">
+    <select class="form-control custom-select" id="data-select">
+      <option selected value="numbers">MNIST handwritten numbers</option>
+      <!-- this option is buggy on deployment -->
+      <option value="fashion">MNIST fashion apparel</option>
+    </select>
+  </div>
+</div>
+
+
+
