@@ -1,0 +1,44 @@
+{# select model type #}
+<div class="row">
+  <h5>Design your neural network:</h5>
+</div>
+<div class="form-inline row p-1">
+  <div class="col-4">
+    <label for="model-select" class=" ">Select Model</label>
+  </div>
+
+  <div class="col-8">
+    <select class="form-control custom-select" id="model-select">
+      <option selected value="dense">linear dense</option>
+      <option value="convolutional">2d convolutional</option>
+    </select>
+  </div>
+</div>
+
+<div class="form-inline row p-1">
+  <div class="col-4">
+    <label for="units-number" class=" ">Dense Layer Units</label>
+  </div>
+
+  <div class="col-8">
+    <input class="form-control" type="number" value="128" min="1" step="1" id="units-number">
+  </div>
+</div>
+
+<div class="form-inline row p-1">
+  <div class="col-4">
+    <label for="hidden-layers-number" class=" ">Hidden Dense Layers</label>
+  </div>
+
+  <div class="col-8">
+    <input class="form-control" type="number" value="1" min="1" step="1" id="hidden-layers-number">
+  </div>
+</div>
+
+<div class="form-inline row p-1">
+  <div class="col-8"></div>
+
+  <div class="col-4">
+    <button type="button" class="form-control btn btn-primary" id="model-create-destory">Create Model</button>
+  </div>
+</div>
