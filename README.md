@@ -12,6 +12,11 @@ Uses Tensorflow and Tesnflow.js
 * run `source venv/bin/activate` to start the virtual enviroment
 * run `pip install -r requirements.txt` to install the required packages
 * run `flask run` to fire up the server and navigate to `localhost:3000` to see the webpage
+* you can also observe with a more basic model by running `python3 py-cli/playground.py`
+  * matplotlib will display an example image
+  * after it is closed, a model will be trained on the dataset
+  * once training is complete, training statistics will be displyed the model will predict the image 
+  * the program will exit when matplotlib is closed
 
 **__NOTE:__** googlopolis can take a little while to send over the training image set for the first time (its around 8 meg), to be patient for around 30 seconds for it to load 
 
