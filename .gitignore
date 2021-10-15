@@ -3,5 +3,4 @@ notes
 venv
 __pycache__
 .DS_Store
-.flaskenv
 .env
