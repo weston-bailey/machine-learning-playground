@@ -1,10 +1,24 @@
 # 🤖 Machine learning playground  
 
+Create and test your own AI in the browser!
+
+## Getting started
+
+* fork and clone this repo
+* this project requires a virtual enviroment so run `pip install virtualenv` if you don't have the virtualenv package
+* cd into the repo directory and run `virtualEnv venv` to create the cirtual enviroment
+* run `source venv/bin/activate` to start the virtual enviroment
+* run `pip install -r requirements.txt` to install the required packages
+* run `flask run` to fire up the server and navigate to `localhost:3000` to see the webpage
+
+**__NOTE:__** googlopolis can take a little while to send over the training image set for the first time (its around 8 meg), to be patient for around 30 seconds for it to load 
+
+more information of setup can be found [here](https://github.com/SEI-SEA-1-25/Virtual-Environment-and-Flask-Setup)
+
+You can [Visit the Live Heroku Deployment!](https://machine-learning-playground.herokuapp.com/) (this is a little buggy right now)
+
 [this is a continuation of my GA p4 project found here](https://github.com/weston-bailey/P4-tensorflow-playground)
  
- ## Pyhton Flask server and Jinja template rendering
-
-[Visit the Live Heroku Deployment!](https://machine-learning-playground.herokuapp.com/)
 
 ## Original Project Pitch
 
