@@ -1,6 +1,8 @@
 # 🤖 Machine learning playground  
 
-Create and test your own AI in the browser!
+Create and test your own AI in the browser! This project uses the mnist handwritten digits data set, loads it in the browser and gives the user the ability to test, trian and interact iwth an AI in the browser. 
+
+Uses Tensorflow and Tesnflow.js
 
 ## Getting started
 
