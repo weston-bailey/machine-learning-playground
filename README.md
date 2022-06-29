@@ -4,6 +4,12 @@ Create and test your own AI in the browser! This project uses the mnist handwrit
 
 Uses Tensorflow and Tesnflow.js
 
+You can [Visit the Live Heroku Deployment!](https://machine-learning-playground.herokuapp.com/) (only the MNIST handwritten digits presents works)
+
+![creating an training a model](./readme_img/ml-playground-1.gif)
+
+![interacting with a trained model](./readme_img/ml-playground-2.gif)
+
 ## Getting started
 
 * fork and clone this repo
@@ -22,12 +28,9 @@ Uses Tensorflow and Tesnflow.js
 
 more information of setup can be found [here](https://github.com/SEI-SEA-1-25/Virtual-Environment-and-Flask-Setup)
 
-You can [Visit the Live Heroku Deployment!](https://machine-learning-playground.herokuapp.com/) (this is a little buggy right now)
-
 [this is a continuation of my GA p4 project found here](https://github.com/weston-bailey/P4-tensorflow-playground)
  
-
-## Original Project Pitch
+## Project Planning
 
 ### 1. How do you plan on learning/implementing this new technology?
 
